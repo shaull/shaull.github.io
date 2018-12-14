@@ -1,0 +1,378 @@
+<?xml version="1.0"?>
+<researcher name="Shaull Almagor">
+<papers>
+
+<paper key="AKK19" type="journal">
+<author>ShaullAlmagor</author>
+<author>DenisKuperberg</author>
+<author>OrnaKupferman</author>
+<title>Sensing as a Complexity Measure.</title>
+<year>To Appear</year>
+<journal>DCFS Special Issue</journal>
+</paper>
+
+<paper key="ACHOW18" type="conf">
+<author>ShaullAlmagor</author>
+<author>BrynmorChapman</author>
+<author>MehranHosseini</author>
+<author>JoelOuaknine</author>
+<author>JamesWorrell</author>
+<title>Effective Divergence Analysis for Linear Recurrence Sequences.</title>
+<pages>42:1-42:15</pages>
+<year>2018</year>
+<conf>CONCUR</conf>
+</paper>
+
+<paper key="ACMP18" type="conf">
+<author>ShaullAlmagor</author>
+<author>MichaelCadilhac</author>
+<author>FilipMazowiecki</author>
+<author>GuillermoPerez</author>
+<title>Weak Cost Register Automata Are Still Powerful.</title>
+<pages>83-95</pages>
+<year>2018</year>
+<conf>DLT</conf>
+</paper>
+
+<paper key="ACOW018" type="conf">
+<author>ShaullAlmagor</author>
+<author>DmitryChistikov</author>
+<author>JoelOuaknine</author>
+<author>JamesWorrell</author>
+<title>O-Minimal Invariants for Linear Loops.</title>
+<pages>114:1-114:14</pages>
+<year>2018</year>
+<conf>ICALP</conf>
+</paper>
+
+<paper key="AKP18" type="conf">
+<author>ShaullAlmagor</author>
+<author>OrnaKupferman</author>
+<author>GiuseppePerelli</author>
+<title>Synthesis of Controllable Nash Equilibria in Quantitative Objective Game.</title>
+<pages>35-41</pages>
+<year>2018</year>
+<conf>IJCAI</conf>
+</paper>
+
+<paper key="AK17" type="journal">
+<author>ShaullAlmagor</author>
+<author>OrnaKupferman</author>
+<title>Latticed-LTL synthesis in the presence of noisy inputs.</title>
+<pages>547-572</pages>
+<year>2017</year>
+<volume>27</volume>
+<journal>Discrete Event Dynamic Systems</journal>
+<number>3</number>
+</paper>
+
+<paper key="AKRV17" type="conf">
+<author>ShaullAlmagor</author>
+<author>OrnaKupferman</author>
+<author>JanOliverRingert</author>
+<author>YaronVelner</author>
+<title>Quantitative Assume Guarantee Synthesis.</title>
+<pages>353-374</pages>
+<year>2017</year>
+<conf>CAV (2)</conf>
+</paper>
+
+<paper key="AKK17" type="conf">
+<author>ShaullAlmagor</author>
+<author>DenisKuperberg</author>
+<author>OrnaKupferman</author>
+<title>Sensing as a Complexity Measure.</title>
+<pages>3-15</pages>
+<year>2017</year>
+<conf>DCFS</conf>
+</paper>
+
+<paper key="AOW17" type="conf">
+<author>ShaullAlmagor</author>
+<author>JoelOuaknine</author>
+<author>JamesWorrell</author>
+<title>The Polytope-Collision Problem.</title>
+<pages>24:1-24:14</pages>
+<year>2017</year>
+<conf>ICALP</conf>
+</paper>
+
+<paper key="ABK16" type="journal">
+<author>ShaullAlmagor</author>
+<author>UdiBoker</author>
+<author>OrnaKupferman</author>
+<title>Formally Reasoning About Quality.</title>
+<pages>24:1-24:56</pages>
+<year>2016</year>
+<volume>63</volume>
+<journal>J. ACM</journal>
+<number>3</number>
+</paper>
+
+<paper key="AKV16" type="conf">
+<author>ShaullAlmagor</author>
+<author>OrnaKupferman</author>
+<author>YaronVelner</author>
+<title>Minimizing Expected Cost Under Hard Boolean Constraints, with Applications to Quantitative Synthesis.</title>
+<pages>9:1-9:15</pages>
+<year>2016</year>
+<conf>CONCUR</conf>
+</paper>
+
+<paper key="AK16" type="conf">
+<author>ShaullAlmagor</author>
+<author>OrnaKupferman</author>
+<title>High-Quality Synthesis Against Stochastic Environments.</title>
+<pages>28:1-28:17</pages>
+<year>2016</year>
+<conf>CSL</conf>
+</paper>
+
+
+<paper key="LAFKV15" type="conf">
+<author>MortezaLahijanian</author>
+<author>ShaullAlmagor</author>
+<author>DrorFried</author>
+<author>LydiaKavraki</author>
+<author>MosheVardi</author>
+<title>This Time the Robot Settles for a Cost: A Quantitative Approach to Temporal Logic Planning with Partial Satisfaction.</title>
+<pages>3664-3671</pages>
+<year>2015</year>
+<conf>AAAI</conf>
+</paper>
+
+<paper key="AAK15" type="conf">
+<author>ShaullAlmagor</author>
+<author>GuyAvni</author>
+<author>OrnaKupferman</author>
+<title>Repairing Multi-Player Games.</title>
+<pages>325-339</pages>
+<year>2015</year>
+<conf>CONCUR</conf>
+</paper>
+
+<paper key="AKK15" type="conf">
+<author>ShaullAlmagor</author>
+<author>DenisKuperberg</author>
+<author>OrnaKupferman</author>
+<title>The Sensing Cost of Monitoring and Synthesis.</title>
+<pages>380-393</pages>
+<year>2015</year>
+<conf>FSTTCS</conf>
+</paper>
+
+<paper key="AK14" type="conf">
+<author>ShaullAlmagor</author>
+<author>OrnaKupferman</author>
+<title>Latticed-LTL Synthesis in the Presence of Noisy Inputs.</title>
+<pages>226-241</pages>
+<year>2014</year>
+<conf>FoSSaCS</conf>
+<url>pub/AK17.pdf</url>
+</paper>
+
+<paper key="AKK14" type="conf">
+<author>ShaullAlmagor</author>
+<author>DenisKuperberg</author>
+<author>OrnaKupferman</author>
+<title>Regular Sensing.</title>
+<pages>161-173</pages>
+<year>2014</year>
+<conf>FSTTCS</conf>
+</paper>
+
+<paper key="ABK14" type="conf">
+<author>ShaullAlmagor</author>
+<author>UdiBoker</author>
+<author>OrnaKupferman</author>
+<title>Discounting in LTL.</title>
+<pages>424-439</pages>
+<year>2014</year>
+<conf>TACAS</conf>
+<url>pub/ABK16.pdf</url>
+</paper>
+
+<paper key="AAK13" type="conf">
+<author>ShaullAlmagor</author>
+<author>GuyAvni</author>
+<author>OrnaKupferman</author>
+<title>Automatic Generation of Quality Specifications.</title>
+<pages>479-494</pages>
+<year>2013</year>
+<conf>CAV</conf>
+</paper>
+
+<paper key="ABK13" type="conf">
+<author>ShaullAlmagor</author>
+<author>UdiBoker</author>
+<author>OrnaKupferman</author>
+<title>Formalizing and Reasoning about Quality.</title>
+<pages>15-27</pages>
+<year>2013</year>
+<conf>ICALP (2)</conf>
+<url>pub/ABK16.pdf</url>
+</paper>
+
+<paper key="MAMR11" type="conf">
+<author>ReshefMeir</author>
+<author>ShaullAlmagor</author>
+<author>AssafMichaely</author>
+<author>JeffreyRosenschein</author>
+<title>Tight bounds for strategyproof classification.</title>
+<pages>319-326</pages>
+<year>2011</year>
+<conf>AAMAS</conf>
+</paper>
+
+<paper key="AK11" type="conf">
+<author>ShaullAlmagor</author>
+<author>OrnaKupferman</author>
+<title>Max and Sum Semantics for Alternating Weighted Automata.</title>
+<pages>13-27</pages>
+<year>2011</year>
+<conf>ATVA</conf>
+</paper>
+
+<paper key="ABK11" type="conf">
+<author>ShaullAlmagor</author>
+<author>UdiBoker</author>
+<author>OrnaKupferman</author>
+<title>What's Decidable about Weighted Automata?</title>
+<pages>482-491</pages>
+<year>2011</year>
+<conf>ATVA</conf>
+</paper>
+
+<paper key="AHK10" type="conf">
+<author>ShaullAlmagor</author>
+<author>YoramHirshfeld</author>
+<author>OrnaKupferman</author>
+<title>Promptness in &#969;-Regular Automata.</title>
+<pages>22-36</pages>
+<year>2010</year>
+<conf>ATVA</conf>
+</paper>
+</papers>
+
+<person id="ShaullAlmagor">
+<fname>Shaull</fname>
+<lname>Almagor</lname>
+</person>
+<person id="RajeevAlur">
+<fname>Rajeev</fname>
+<lname>Alur</lname>
+<link>http://www.cis.upenn.edu/~alur/</link>
+</person>
+<person id="GuyAvni"> 
+<fname>Guy</fname>
+<lname>Avni</lname>
+<link>http://pub.ist.ac.at/~gavni/</link>
+</person>
+<person id="UdiBoker">
+<fname>Udi</fname>
+<lname>Boker</lname>
+<link>http://www.faculty.idc.ac.il/udiboker/</link>
+</person>
+<person id="MichaelCadilhac">
+<fname>Micha&#235;l</fname>
+<lname>Cadilhac</lname>
+<link>http://michael.cadilhac.name/</link>
+</person>
+<person id="BrynmorChapman">
+<fname>Brynmor</fname>
+<lname>Chapman</lname>
+</person>
+<person id="DmitryChistikov">
+<fname>Dmitry</fname>
+<lname>Chistikov</lname>
+<link>https://warwick.ac.uk/fac/sci/dcs/people/dmitry_chistikov/</link>
+</person>
+<person id="DrorFried">
+<fname>Dror</fname>
+<lname>Fried</lname>
+</person>
+<person id="YoramHirshfeld">
+<fname>Yoram</fname>
+<lname>Hirshfeld</lname>
+</person>
+<person id="MehranHosseini">
+<fname>Mehran</fname>
+<lname>Hosseini</lname>
+<link>https://www.cs.ox.ac.uk/people/mehran.hosseini/</link>
+</person>
+<person id="LydiaKavraki">
+<fname>Lydia E.</fname>
+<lname>Kavraki</lname>
+<link>https://www.cs.rice.edu/~kavraki/</link>
+</person>
+<person id="DenisKuperberg">
+<fname>Denis</fname>
+<lname>Kuperberg</lname>
+<link>http://perso.ens-lyon.fr/denis.kuperberg/</link>
+</person>
+<person id="OrnaKupferman">
+<fname>Orna</fname>
+<lname>Kupferman</lname>
+<link>https://www.cs.huji.ac.il/~ornak/</link>
+</person>
+<person id="MortezaLahijanian">
+<fname>Morteza</fname>
+<lname>Lahijanian</lname>
+<link>http://mortezalahijanian.com/</link>
+</person>
+<person id="FilipMazowiecki">
+<fname>Filip</fname>
+<lname>Mazowiecki</lname>
+<link>https://www.labri.fr/perso/fmazowiecki/</link>
+</person>
+<person id="ReshefMeir">
+<fname>Reshef</fname>
+<lname>Meir</lname>
+<link>https://web.iem.technion.ac.il/en/people/reshefm.html</link>
+</person>
+<person id="AssafMichaely">
+<fname>Assaf</fname>
+<lname>Michaely</lname>
+</person>
+<person id="JoelOuaknine">
+<fname>Jo&#235;l</fname>
+<lname>Ouaknine</lname>
+<link>https://people.mpi-sws.org/~joel/</link>
+</person>
+<person id="GiuseppePerelli">
+<fname>Giuseppe</fname>
+<lname>Perelli</lname>
+<link>http://www.giuseppeperelli.altervista.org/</link>
+</person>
+<person id="GuillermoPerez">
+<fname>Guillermo A.</fname>
+<lname>P&#233;rez</lname>
+<link>https://www.uantwerpen.be/en/staff/guillermoalberto-perez/</link>
+</person>
+<person id="JanOliverRingert">
+<fname>Jan Oliver</fname>
+<lname>Ringert</lname>
+<link>http://www.cs.tau.ac.il/~ringert/</link>
+</person>
+<person id="JeffreyRosenschein">
+<fname>Jeffrey S.</fname>
+<lname>Rosenschein</lname>
+<link>http://www.cs.huji.ac.il/~jeff/</link>
+</person>
+<person id="MosheVardi">
+<fname>Moshe Y.</fname>
+<lname>Vardi</lname>
+<link>https://www.cs.rice.edu/~vardi/</link>
+</person>
+<person id="YaronVelner">
+<fname>Yaron</fname>
+<lname>Velner</lname>
+</person>
+<person id="JamesWorrell">
+<fname>James</fname>
+<lname>Worrell</lname>
+<link>http://www.cs.ox.ac.uk/people/james.worrell/home.html</link>
+</person>
+
+</researcher>
+

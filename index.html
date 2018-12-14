@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Shaull Almagor's Homepage</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style>
+body {
+    background-color: #a3a3c2;
+}
+</style>
+</head>
+<body>
+
+<table width="100%"  border="0">
+  <tr>
+    <td width="19%"><img src="me.jpg" alt="Me! " name="Me" width="271" height="250"></td>
+    <td width="81%"><h1>Shaull Almagor's Homepage </h1>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>I am currently a postdoc at Oxford University under the supervision of <a href="http://people.mpi-sws.org/~joel/">Prof. Joël Ouaknine</a>.<br/>
+
+		I obtained my PhD in Computer Science (2016) from the Hebrew University of Jerusalem, under the supervision of <a href="https://www.cs.huji.ac.il/~ornak/">Prof. Orna Kupferman</a>.<br/>
+	
+		Prior to that, I obtained my M.Sc in Computer Science (2011, <I>summa cum laude</I>) and a B.Sc in Mathematics and Computer Science (2009, <I>magna cum laude</I>), both from the Hebrew University of Jerusalem.</p></td>
+  </tr>
+</table>
+<hr>
+<h2>Contact Information:</h2>
+shaull.almagor _at_ cs.ox.ac.uk<br/>
+Office: 366A, Wolfson Building.<br/>
+Address: Department of Computer Science, University of Oxford,<br/>
+7 Keble Road, Oxford, UK.<br/>
+<hr>
+
+<h2>Academic Interests:</h2>
+<p>Formal Methods, Automata, Weighted Automata, Linear Dynamical Systems, Logic, Robotic Planning</p>
+
+<hr>
+<h2>Publications:</h2>
+<p id="numPubs"></p>
+<p id="pubs"></p>
+
+<script>
+
+var xmltext, parser, xmlDoc, allPapers, allPeople;
+
+function getPersonString(personNode){
+	fname=personNode.getElementsByTagName("fname")[0].childNodes[0].nodeValue;
+	lname=personNode.getElementsByTagName("lname")[0].childNodes[0].nodeValue;
+	link=personNode.getElementsByTagName("link");
+	if(link.length==0)
+		return fname+" "+lname;
+	if(link.length==1){
+			linktxt=link[0].childNodes[0].nodeValue;
+			return "<a href=\""+linktxt+"\">"+fname+" "+lname+"</a>";
+		}
+	return null;
+};
+
+function getPersonStringByID(id){
+	for(i=0;i<allPeople.length;i++){
+		if(allPeople[i].getAttribute("id")==id){
+			return getPersonString(allPeople[i]);
+		}
+	}
+	return "AuthorError";
+};
+
+function getPaperString(paper){
+	pTitle=paper.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+	authorList=paper.getElementsByTagName("author");
+	pLink=paper.getElementsByTagName("url");
+	typePub=paper.getAttribute("type");
+	pub=paper.getElementsByTagName(typePub);
+	pAuthors="";
+	if(authorList.length==1){
+		pAuthors=getPersonStringByID(authorList[0].childNodes[0].nodeValue);
+	}
+	if(authorList.length==2){
+		pAuthors=getPersonStringByID(authorList[0].childNodes[0].nodeValue)+ " and "+getPersonStringByID(authorList[1].childNodes[0].nodeValue);
+	}
+	if(authorList.length>2){
+		for(a=0;a<authorList.length-1;a++){
+			pAuthors+=getPersonStringByID(authorList[a].childNodes[0].nodeValue)+", ";
+		}
+		pAuthors+= "and "+getPersonStringByID(authorList[authorList.length-1].childNodes[0].nodeValue);
+	}
+	titleTxt="";
+	if(pLink.length>0)	{
+		linkTxt=pLink[0].childNodes[0].nodeValue;
+		titleTxt="<a href=\""+linkTxt+"\">"+ pTitle +"</a>";
+	}
+	else{
+		linkTxt="pub\/"+paper.getAttribute("key")+".pdf";
+		titleTxt="<a href=\""+linkTxt+"\">"+ pTitle +"</a>";
+	}
+	pubTxt="";
+	if(pub==null){
+		pubTxt="Publication Error";
+	}
+	else{
+		pubTxt=pub[0].childNodes[0].nodeValue+" "+paper.getElementsByTagName("year")[0].childNodes[0].nodeValue;
+	}
+	
+	return titleTxt+"<BR\/>"+pAuthors+", "+ "<I>"+pubTxt+"</I>" +"<BR\/>";
+};
+
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+    setPublications(this);
+    }
+};
+xhttp.open("GET", "Publications.xml", true);
+xhttp.send();
+
+function setPublications(xml) {
+    var xmlDoc = xml.responseXML;
+  
+	//xmltext=
+
+	//parser = new DOMParser();
+	//xmlDoc = parser.parseFromString(xmltext,"text/xml");
+
+	allPapers=xmlDoc.getElementsByTagName("paper");
+	allPeople=xmlDoc.getElementsByTagName("person");
+
+	//document.getElementById("p1").innerHTML =	xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+
+	/*document.getElementById("p2").innerHTML =
+	allPapers.length;
+
+	peopleText="";
+	for(i=0;i<allPeople.length;i++){
+		peopleText+=getPersonString(allPeople[i])+"<BR\/>";
+	}
+	document.getElementById("p3").innerHTML = peopleText;*/
+	
+	//document.getElementById("numPubs").innerHTML ="Numpubs="+allPapers.length;
+
+	papersString="<ul style=\"list-style-type:disc\">\r\n";
+	for(iPaper=0;iPaper<allPapers.length;iPaper++){
+		 papersString+="<li>"+getPaperString(allPapers[iPaper])+"<BR\/><\/li>\r\n";
+	}
+	papersString+="</ul>\r\n";
+	document.getElementById("pubs").innerHTML =papersString;
+};
+</script>
+<hr>
+<h2>Other Activities</h2>
+I've been known to burst into song with <a href="http://www.cs.huji.ac.il/~yonatanm/">Jonathan Mosheiff</a>:
+<a href= "https://www.youtube.com/watch?v=TpIndttQLxY&list=PLoCG2PCTZB5ste6j5cPzrjs0XjxG4NDFx&index=4">at ITCS 2015</a> (English),<br\/>
+and during computational-models classes (Hebrew):
+<a href = "https://www.youtube.com/watch?v=-jRDd_7_OIk&list=PLoCG2PCTZB5ste6j5cPzrjs0XjxG4NDFx&index=1">2012, </a> 
+<a href="https://www.youtube.com/watch?v=NhANmZPGVM0&list=PLoCG2PCTZB5ste6j5cPzrjs0XjxG4NDFx&index=2">2013, </a>
+<a href="https://www.youtube.com/watch?v=fSWc1rKuT1g&index=3&list=PLoCG2PCTZB5ste6j5cPzrjs0XjxG4NDFx">2014, </a>
+<a href="https://www.youtube.com/watch?v=oeUXwNj2mGQ&list=PLoCG2PCTZB5ste6j5cPzrjs0XjxG4NDFx&index=5">2015, </a> 
+<a href="https://www.youtube.com/watch?v=YQkADVhKg1E&index=6&list=PLoCG2PCTZB5ste6j5cPzrjs0XjxG4NDFx">2016, </a>
+</body>
+</html>
