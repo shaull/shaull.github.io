@@ -2,13 +2,22 @@
 <researcher name="Shaull Almagor">
 <papers>
 
+<paper key="AOW19" type="conf">
+<author>ShaullAlmagor</author>
+<author>JoelOuaknine</author>
+<author>JamesWorrell</author>
+<title>The Semialgebraic Orbit Problem.</title>
+<year>2019</year>
+<conf>STACS (to appear)</conf>
+</paper>
+
 <paper key="AKK19" type="journal">
 <author>ShaullAlmagor</author>
 <author>DenisKuperberg</author>
 <author>OrnaKupferman</author>
 <title>Sensing as a Complexity Measure.</title>
-<year>To Appear</year>
-<journal>DCFS Special Issue</journal>
+<year>2019</year>
+<journal>DCFS Special Issue (to appear)</journal>
 </paper>
 
 <paper key="ACHOW18" type="conf">
