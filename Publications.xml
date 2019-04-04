@@ -8,7 +8,7 @@
 <author>JamesWorrell</author>
 <title>The Semialgebraic Orbit Problem.</title>
 <year>2019</year>
-<conf>STACS (to appear)</conf>
+<conf>STACS</conf>
 </paper>
 
 <paper key="AKK19" type="journal">
@@ -83,7 +83,7 @@
 <title>Quantitative Assume Guarantee Synthesis.</title>
 <pages>353-374</pages>
 <year>2017</year>
-<conf>CAV (2)</conf>
+<conf>CAV</conf>
 </paper>
 
 <paper key="AKK17" type="conf">
