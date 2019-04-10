@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Things For Sale/Givaway</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="author" content="Shaull Almagor">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+    background-color: #ffffff;
+}
+
+img.picstyle {
+  max-width: 600px;
+  max-height: 600px;
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align:middle;
+}
+
+img.arrow {
+  max-width: 80px;
+  max-height: 80px;
+  vertical-align:middle;
+}
+
+img.arrow:hover{
+	-webkit-filter: invert(100%) !important;
+}
+
+div#main {
+    position: relative;
+    width: 60%;
+    margin: 0px auto;
+    text-align: left;
+	background-color: #ffffff;
+}
+@media screen and (max-width: 1200px) {
+  div#main {
+    width: 90%; /* The width is 90%, when the viewport is 1000px or smaller */
+  }
+  
+</style>
+</head>
+<body>
+<div id="main">
+<h1>Things for Sale/Free</h1>
+<p id="stuff">
+
+</p>
+
+<script>
+
+var xmltext, parser, xmlDoc, allStuff;
+
+
+function changeImg(key,numpics,delta){
+	imgElem=document.getElementById(key);
+	curSrc=imgElem.src;
+	curInd=parseInt(curSrc.substr(-5));
+	newInd=(curInd+numpics+delta)%numpics;
+	newSrc=curSrc.substring(0, curSrc.length-5)+newInd+".jpg";
+	imgElem.src=newSrc;
+};
+
+function getThingString(thing){
+	pKey= thing.getAttribute("key");
+	pName=thing.getElementsByTagName("name")[0].childNodes[0].nodeValue;
+	pText=thing.getElementsByTagName("text")[0].childNodes[0].nodeValue;
+	pNumPics=thing.getElementsByTagName("picnum")[0].childNodes[0].nodeValue;
+	typeThing=thing.getAttribute("type");
+	priceTxt="";
+	if(typeThing=="free"){
+		priceTxt="FREE!";
+	}
+	if(typeThing=="sell"){
+		priceTxt="Price: £"+thing.getElementsByTagName("price")[0].childNodes[0].nodeValue;
+	}
+	
+	titleTxt= pName+" ---- " +priceTxt ;
+	nextTxt="<img alt=\"Next Picture\" src=\"Next.png\" class=\"arrow\" onclick=changeImg(\"img"+pKey+"\","+pNumPics+",1)>";
+	prevTxt="<img alt=\"Next Picture\" src=\"Prev.png\" class=\"arrow\" onclick=changeImg(\"img"+pKey+"\","+pNumPics+",-1)>";
+	imgTxt=" <img alt=\""+pName +"\" src=\"pics\/"+pKey+"0.jpg\" class=\"picstyle\" id=\"img"+pKey +"\">" ;
+	return titleTxt+"<BR\/> <h5>"+pText+"</h5><BR\/> "+ prevTxt+ imgTxt +nextTxt +"<BR\/>";
+};
+
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+		setStuff(this);
+    }
+};
+xhttp.open("GET", "Stuff.xml", true);
+xhttp.send();
+
+
+function setStuff(xml) {
+  var xmlDoc = xml.responseXML;
+  
+  //text = "<stuff> <thing key=\"ChangingTable\" type=\"free\"><name>Changing Table</name><text><![CDATA[A Changing table with 3 drawers and a laundry basket. <br />                       The bottom panel sometimes comes loose (see picture).]]></text><picnum>3</picnum></thing><thing key=\"Swing\" type=\"sell\"><name>Swing Set</name><text><![CDATA[ A Plum 2 in 1 swinget. <br />                       Can be assembled either as a baby/toddler swing, as in the picture, <br />				 or as a higher swing with a backless-seat. <br />				 In original box with all original parts. We only ever used the baby swing.				 ]]></text><picnum>3</picnum><price>20</price></thing></stuff>";
+
+	//parser = new DOMParser();
+   //xmlDoc = parser.parseFromString(text,"text/xml");
+  
+  
+	//xmltext=
+
+	//parser = new DOMParser();
+	//xmlDoc = parser.parseFromString(xmltext,"text/xml");
+
+	allStuff=xmlDoc.getElementsByTagName("thing");
+	
+	//document.getElementById("p1").innerHTML =	xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+
+	/*document.getElementById("p2").innerHTML =
+	allPapers.length;
+
+	peopleText="";
+	for(i=0;i<allPeople.length;i++){
+		peopleText+=getPersonString(allPeople[i])+"<BR\/>";
+	}
+	document.getElementById("p3").innerHTML = peopleText;*/
+	
+	//document.getElementById("numPubs").innerHTML ="Numpubs="+allPapers.length;
+
+	stuffString="<ol>\r\n <h2>";
+	for(iThing=0;iThing<allStuff.length;iThing++){
+		 stuffString+="<li><span>"+getThingString(allStuff[iThing])+"</span><BR\/> <hr> <\/li>\r\n";
+	}
+	stuffString+="</h2></ol>\r\n";
+	
+	document.getElementById("stuff").innerHTML =stuffString;
+};
+
+setStuff();
+</script>
+</div>
+</body>
+</html>
