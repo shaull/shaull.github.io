@@ -76,13 +76,13 @@ function getThingString(thing){
 		priceTxt="FREE!";
 	}
 	if(typeThing=="sell"){
-		priceTxt="Price: £"+thing.getElementsByTagName("price")[0].childNodes[0].nodeValue;
+		priceTxt="Price: \&\#163\;"+thing.getElementsByTagName("price")[0].childNodes[0].nodeValue;
 	}
 	
 	titleTxt= pName+" ---- " +priceTxt ;
 	nextTxt="<img alt=\"Next Picture\" src=\"Next.png\" class=\"arrow\" onclick=changeImg(\"img"+pKey+"\","+pNumPics+",1)>";
 	prevTxt="<img alt=\"Next Picture\" src=\"Prev.png\" class=\"arrow\" onclick=changeImg(\"img"+pKey+"\","+pNumPics+",-1)>";
-	imgTxt=" <img alt=\""+pName +"\" src=\"pics\/"+pKey+"0.jpg\" class=\"picstyle\" id=\"img"+pKey +"\">" ;
+	imgTxt=" <img alt=\""+pName +"\" src=\"Pics\/"+pKey+"0.jpg\" class=\"picstyle\" id=\"img"+pKey +"\">" ;
 	return titleTxt+"<BR\/> <h5>"+pText+"</h5><BR\/> "+ prevTxt+ imgTxt +nextTxt +"<BR\/>";
 };
 
