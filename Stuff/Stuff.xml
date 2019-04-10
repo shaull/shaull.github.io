@@ -11,7 +11,7 @@
 
 <thing key="Swing" type="sell">
 <name>Swing Set</name>
-<text><![CDATA[ A Plum 2 in 1 swinget. <br />      
+<text><![CDATA[ Plum 2 in 1 swing set. <br />      
                  Can be assembled either as a baby/toddler swing, as in the picture, <br />
 				 or as a higher swing with a backless-seat. <br />
 				 In original box with all original parts. We only ever used the baby swing.
@@ -19,6 +19,57 @@
 </text>
 <picnum>3</picnum>
 <price>20</price>
+</thing>
+
+<thing key="Cot" type="free">
+<name>Cot Bed with Mattress</name>
+<text><![CDATA[ A cot bed with a mattress: <br />
+We bought the mattress brand new, and used it for 1.5 years. It's still in great condition. <br />
+The cot bed is used, and the back panel has to be secured with zip ties. Other than that the cot bed is fine.
+				 ]]>
+</text>
+<picnum>1</picnum>
+</thing>
+
+<thing key="Bath" type="free">
+<name>Baby/Toddler Bath</name>
+<text><![CDATA[ A baby bath with non-slip strips.
+				 ]]>
+</text>
+<picnum>1</picnum>
+</thing>
+
+<thing key="BathSeat" type="free">
+<name>Swivel Bath Seat</name>
+<text><![CDATA[ A swivelling bath seat, with suction cups for attaching to bath floor. 
+				 ]]>
+</text>
+<picnum>1</picnum>
+</thing>
+
+<thing key="tent" type="free">
+<name>Play Tent</name>
+<text><![CDATA[ A Play Tent, in original bag. Hardly used and in perfect condition.
+				 ]]>
+</text>
+<picnum>1</picnum>
+</thing>
+
+<thing key="Carrier" type="sell">
+<name>RedKite Baby Carrier</name>
+<text><![CDATA[ RedKite baby carrier in original box, with instructions.
+				 ]]>
+</text>
+<picnum>2</picnum>
+<price>5</price>
+</thing>
+
+<thing key="JapCarrier" type="free">
+<name>Japanese Baby Carrier</name>
+<text><![CDATA[ A Japanese baby carrier. Very light. Comes with instructions on paper and on DVD.
+				 ]]>
+</text>
+<picnum>3</picnum>
 </thing>
 
 </stuff>

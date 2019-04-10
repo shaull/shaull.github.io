@@ -47,6 +47,11 @@ div#main {
 <body>
 <div id="main">
 <h1>Things for Sale/Free</h1>
+<h5>
+We're moving away from Oxford in May 2019, and we have lots of stuff for sale/free.
+<br />
+Everything is in good condition, clean, and from a smoke-free home.
+</h5>
 <p id="stuff">
 
 </p>
@@ -80,8 +85,12 @@ function getThingString(thing){
 	}
 	
 	titleTxt= pName+" ---- " +priceTxt ;
-	nextTxt="<img alt=\"Next Picture\" src=\"Next.png\" class=\"arrow\" onclick=changeImg(\"img"+pKey+"\","+pNumPics+",1)>";
-	prevTxt="<img alt=\"Next Picture\" src=\"Prev.png\" class=\"arrow\" onclick=changeImg(\"img"+pKey+"\","+pNumPics+",-1)>";
+	nextTxt="";
+	prevTxt="";
+	If(parseInt(pNumPics)>1){
+		nextTxt="<img alt=\"Next Picture\" src=\"Next.png\" class=\"arrow\" onclick=changeImg(\"img"+pKey+"\","+pNumPics+",1)>";
+		prevTxt="<img alt=\"Next Picture\" src=\"Prev.png\" class=\"arrow\" onclick=changeImg(\"img"+pKey+"\","+pNumPics+",-1)>";
+	}
 	imgTxt=" <img alt=\""+pName +"\" src=\"Pics\/"+pKey+"0.jpg\" class=\"picstyle\" id=\"img"+pKey +"\">" ;
 	return titleTxt+"<BR\/> <h5>"+pText+"</h5><BR\/> "+ prevTxt+ imgTxt +nextTxt +"<BR\/>";
 };
