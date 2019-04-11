@@ -25,7 +25,7 @@
 <thing key="Cot" type="free">
 <name>Cot Bed with Mothercare Mattress</name>
 <text><![CDATA[ A cot bed with a Mothercare mattress: <br />
-We bought the mattress brand new, and used it for 1.5 years. It's still in great condition. <br />
+We bought the mattress brand new, and used it for 1.5 years. <br />
 The cot bed is used, and the back panel has to be secured with zip ties. Other than that the cot bed is fine.
 				 ]]>
 </text>
@@ -33,7 +33,7 @@ The cot bed is used, and the back panel has to be secured with zip ties. Other t
 </thing>
 
 <thing key="Bath" type="free">
-<name>Bath + Swivel Bath Seat + 3 Stools</name>
+<name>Bath Bundle: Bath + Swivel Bath Seat + 3 Stools</name>
 <text><![CDATA[ A baby bath with non-slip strips. <br />
 			 A swivelling bath seat, with suction cups for attaching to bath floor. <br />
 			 3 Step stools, one with a stair.
@@ -70,12 +70,12 @@ The cot bed is used, and the back panel has to be secured with zip ties. Other t
 </thing>
 
 <thing key="toys" type="sell">
-<name>Huge Toy Bundle</name>
-<text><![CDATA[ Huge toy bundle, which includes: <br />
+<name>Toy Bundle</name>
+<text><![CDATA[ Big toy bundle, which includes: <br />
  - Car <br />
  - Table and chair <br />
  - Books (some brand new) <br />
- - Toys, many new and unopened
+ - Toys, some new and unopened
 				 ]]>
 </text>
 <picnum>8</picnum>
@@ -83,9 +83,9 @@ The cot bed is used, and the back panel has to be secured with zip ties. Other t
 </thing>
 
 <thing key="home" type="sell">
-<name>Huge Toy Bundle</name>
-<text><![CDATA[ Welcome to Oxford Home Bundle: <br />
- - Not in the pictures: Double wool duvet, Double summer blanket, Double duvet (very warm), Double duvet (medium-warmth), 2 excellent Single duvets, Single light duvet, 5 excellent pillows, 4 simple pillows, 3 bath mats. <br />
+<name>Home Bundle (Blanket, Pillows, etc...)</name>
+<text><![CDATA[ "Welcome to Oxford" Home Bundle: <br />
+ - The main part of the bundle is not in the pictures: Double wool duvet, Double summer blanket, Double duvet (very warm), Double duvet (medium-warmth), 2 excellent Single duvets, Single light duvet, 5 excellent pillows, 4 simple pillows, 3 bath mats. <br /> <br />
  - 1st picture: Bundle of sheets (mostly double, some single). <br />
  - 2nd picture: Laundry hamper and 2 vases. <br />
  - 3rd picture: Mirror <br />
@@ -105,7 +105,7 @@ Table can be opened and extended (extensions stored under it).
 </thing>
 
 <thing key="whitehighchair" type="free">
-<name>Table and 4 Chairs</name>
+<name>White Highchair with Tray</name>
 <text><![CDATA[ A white highchair with a tray. <br />
 The legs can be taken apart, so it's easy to collect.
 				 ]]>
