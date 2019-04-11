@@ -14,7 +14,8 @@
 <text><![CDATA[ Plum 2 in 1 swing set. <br />      
                  Can be assembled either as a baby/toddler swing, as in the picture, <br />
 				 or as a higher swing with a backless-seat. <br />
-				 In original box with all original parts. We only ever used the baby swing.
+				 Currntyly packed in its original box with all original parts, so can be easily collected. <br />
+				 We only ever used the baby swing.
 				 ]]>
 </text>
 <picnum>3</picnum>
@@ -22,8 +23,8 @@
 </thing>
 
 <thing key="Cot" type="free">
-<name>Cot Bed with Mattress</name>
-<text><![CDATA[ A cot bed with a mattress: <br />
+<name>Cot Bed with Mothercare Mattress</name>
+<text><![CDATA[ A cot bed with a Mothercare mattress: <br />
 We bought the mattress brand new, and used it for 1.5 years. It's still in great condition. <br />
 The cot bed is used, and the back panel has to be secured with zip ties. Other than that the cot bed is fine.
 				 ]]>
@@ -32,19 +33,13 @@ The cot bed is used, and the back panel has to be secured with zip ties. Other t
 </thing>
 
 <thing key="Bath" type="free">
-<name>Baby/Toddler Bath</name>
-<text><![CDATA[ A baby bath with non-slip strips.
+<name>Bath + Swivel Bath Seat + 3 Stools</name>
+<text><![CDATA[ A baby bath with non-slip strips. <br />
+			 A swivelling bath seat, with suction cups for attaching to bath floor. <br />
+			 3 Step stools, one with a stair.
 				 ]]>
 </text>
-<picnum>1</picnum>
-</thing>
-
-<thing key="BathSeat" type="free">
-<name>Swivel Bath Seat</name>
-<text><![CDATA[ A swivelling bath seat, with suction cups for attaching to bath floor. 
-				 ]]>
-</text>
-<picnum>1</picnum>
+<picnum>3</picnum>
 </thing>
 
 <thing key="tent" type="free">
@@ -56,20 +51,75 @@ The cot bed is used, and the back panel has to be secured with zip ties. Other t
 </thing>
 
 <thing key="Carrier" type="sell">
-<name>RedKite Baby Carrier</name>
-<text><![CDATA[ RedKite baby carrier in original box, with instructions.
+<name>RedKite Baby Carrier + Japanese Baby Carrier</name>
+<text><![CDATA[ - RedKite baby carrier in original box, with instructions. <br />
+	 - A Japanese baby carrier (never used). Very light. Comes with instructions on paper and on DVD.
 				 ]]>
 </text>
-<picnum>1</picnum>
+<picnum>4</picnum>
 <price>5</price>
 </thing>
 
-<thing key="JapCarrier" type="free">
-<name>Japanese Baby Carrier</name>
-<text><![CDATA[ A Japanese baby carrier. Very light. Comes with instructions on paper and on DVD.
+<thing key="bike" type="sell">
+<name>Balance Bike</name>
+<text><![CDATA[ Balance Bike, seat height can be adjusted.
+				 ]]>
+</text>
+<picnum>1</picnum>
+<price>7</price>
+</thing>
+
+<thing key="toys" type="sell">
+<name>Huge Toy Bundle</name>
+<text><![CDATA[ Huge toy bundle, which includes: <br />
+ - Car <br />
+ - Table and chair <br />
+ - Books (some brand new) <br />
+ - Toys, many new and unopened
+				 ]]>
+</text>
+<picnum>8</picnum>
+<price>5</price>
+</thing>
+
+<thing key="home" type="sell">
+<name>Huge Toy Bundle</name>
+<text><![CDATA[ Welcome to Oxford Home Bundle: <br />
+ - Not in the pictures: Double wool duvet, Double summer blanket, Double duvet (very warm), Double duvet (medium-warmth), 2 excellent Single duvets, Single light duvet, 5 excellent pillows, 4 simple pillows, 3 bath mats. <br />
+ - 1st picture: Bundle of sheets (mostly double, some single). <br />
+ - 2nd picture: Laundry hamper and 2 vases. <br />
+ - 3rd picture: Mirror <br />
 				 ]]>
 </text>
 <picnum>3</picnum>
+<price>30</price>
+</thing>
+
+<thing key="table" type="free">
+<name>Table and 4 Chairs</name>
+<text><![CDATA[ A table with 4 chairs (only 2 seen in the pictures). <br />
+Table can be opened and extended (extensions stored under it).
+				 ]]>
+</text>
+<picnum>5</picnum>
+</thing>
+
+<thing key="whitehighchair" type="free">
+<name>Table and 4 Chairs</name>
+<text><![CDATA[ A white highchair with a tray. <br />
+The legs can be taken apart, so it's easy to collect.
+				 ]]>
+</text>
+<picnum>1</picnum>
+</thing>
+
+<thing key="travelcot" type="sell">
+<name>Hauck Sleep'n Play Travel Cot</name>
+<text><![CDATA[ Bought new, and was only used once.
+				 ]]>
+</text>
+<picnum>1</picnum>
+<price>20</price>
 </thing>
 
 </stuff>
