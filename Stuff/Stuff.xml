@@ -12,7 +12,9 @@
 <thing key="table" type="free">
 <name>Table and 4 Chairs</name>
 <text><![CDATA[ A table with 4 chairs (only 2 seen in the pictures). <br />
-Table can be opened and extended (extensions stored under it).
+Table can be opened and extended (extensions stored under it). <br />
+Dimensions (without extension): Width 100cm, Height 74cm, Length 182cm <br />
+Available for collection from 18.5.2019.
 				 ]]>
 </text>
 <picnum>5</picnum>
