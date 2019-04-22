@@ -46,13 +46,14 @@ Preferred collection after 16.5.2019.
 <picnum>1</picnum>
 </thing>
 
-<thing key="Bath" type="free">
+<thing key="Bath" type="sell">
 <name>Bath Bundle: Bath + Swivel Bath Seat + 3 Stools</name>
 <text><![CDATA[ A baby bath with non-slip strips. <br />
 			 A swivelling bath seat, with suction cups for attaching to bath floor. <br />
 			 3 Step stools, one with a stair.
 				 ]]>
 </text>
+<price>5</price>
 <picnum>3</picnum>
 </thing>
 
@@ -105,9 +106,9 @@ The legs can be taken apart, so it's easy to collect.
 </thing>
 
 <thing key="Carrier" type="sell">
-<name>RedKite Baby Carrier + Japanese Baby Carrier</name>
+<name>RedKite Baby Carrier + Japanese Baby Sling</name>
 <text><![CDATA[ - RedKite baby carrier in original box, with instructions. <br />
-	 - A Japanese baby carrier (never used). Very light. Comes with instructions on paper and on DVD.
+	 - A Japanese baby sling (never used). Very light. Comes with instructions on paper and on DVD.
 				 ]]>
 </text>
 <picnum>4</picnum>
@@ -119,7 +120,7 @@ The legs can be taken apart, so it's easy to collect.
 <text><![CDATA[ Bought new, and was only used once.
 				 ]]>
 </text>
-<picnum>1</picnum>
+<picnum>3</picnum>
 <price>20</price>
 </thing>
 
