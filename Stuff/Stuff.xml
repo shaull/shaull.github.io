@@ -14,48 +14,36 @@
 <text><![CDATA[ A table with 4 chairs (only 2 seen in the pictures). <br />
 Table can be opened and extended (extensions stored under it). <br />
 Dimensions (without extension): Width 100cm, Height 74cm, Length 182cm <br />
-Available for collection from 18.5.2019.
 				 ]]>
 </text>
 <picnum>5</picnum>
 </thing>
 
 <thing key="home" type="sell">
-<name>Home Bundle (Blanket, Pillows, etc...)</name>
+<name>Home Bundle (Blankets, Pillows, etc...)</name>
 <text><![CDATA[ "Welcome to Oxford" Home Bundle: <br />
  - The main part of the bundle is not in the pictures: Double wool duvet, Double summer blanket, Double duvet (very warm), Double duvet (medium-warmth), 2 excellent Single duvets, Single light duvet, 5 excellent pillows, 4 simple pillows, 3 bath mats. <br /> <br />
  - 1st picture: Bundle of sheets (mostly double, some single), and towels. (There are more not in the picture).<br />
  - 2nd picture: Laundry hamper and 2 vases. <br />
  - 3rd picture: Mirror <br />
  - 4th picture: Laundry basket <br />
- - 5th picture: Laundry rack.
+ - 5th picture: Laundry rack. 
 				 ]]>
 </text>
 <picnum>3</picnum>
-<price>30</price>
+<price>25</price>
 </thing>
 
 <thing key="Cot" type="free">
 <name>Cot Bed with Mothercare Mattress</name>
 <text><![CDATA[ A cot bed with a Mothercare mattress: <br />
 We bought the mattress brand new, and used it for 1.5 years. <br />
-The cot bed is used, and the back panel has to be secured with zip ties. Other than that the cot bed is fine.
+The cot bed is used, and the back panel has to be secured with zip ties. Other than that the cot bed is fine. <br />
+Can be dissembled and collected easily <br />
+Preferred collection after 16.5.2019.
 				 ]]>
 </text>
 <picnum>1</picnum>
-</thing>
-
-<thing key="Swing" type="sell">
-<name>Swing Set</name>
-<text><![CDATA[ Plum 2 in 1 swing set. <br />      
-                 Can be assembled either as a baby/toddler swing, as in the picture, <br />
-				 or as a higher swing with a backless-seat. <br />
-				 Currntyly packed in its original box with all original parts, so can be easily collected. <br />
-				 We only ever used the baby swing.
-				 ]]>
-</text>
-<picnum>3</picnum>
-<price>20</price>
 </thing>
 
 <thing key="Bath" type="free">
@@ -66,6 +54,15 @@ The cot bed is used, and the back panel has to be secured with zip ties. Other t
 				 ]]>
 </text>
 <picnum>3</picnum>
+</thing>
+
+<thing key="cocoon" type="sell">
+<name>Phil and Ted Cocoon</name>
+<text><![CDATA[ Black Phil and Ted Cocoon in excellent condition.
+				 ]]>
+</text>
+<picnum>3</picnum>
+<price>10</price>
 </thing>
 
 <thing key="toys" type="sell">
