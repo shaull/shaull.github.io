@@ -108,7 +108,7 @@ The legs can be taken apart, so it's easy to collect.
 
 <thing key="bluehighchair" type="free">
 <name>Blue Highchair</name>
-<text><![CDATA[ A white highchair. <br />
+<text><![CDATA[ A blue highchair. <br />
 The legs can be taken apart, so it's easy to collect. <br />
 Preferred collection after 16.5.2019.
 				 ]]>
@@ -136,9 +136,9 @@ Preferred collection after 16.5.2019.
 </thing>
 
 <thing key="blender" type="sell">
-<name>Tower Blender and Grinder</name>
+<name>Blender and Grinder</name>
 <text><![CDATA[ 
-A 6-speed blender with a grinder. <br />
+Tower 6-speed blender with a grinder. <br />
 Bought new, used mostly the grinder. 
 				 ]]>
 </text>
@@ -149,7 +149,7 @@ Bought new, used mostly the grinder.
 <thing key="chopper" type="sell">
 <name>Manual Food Chopper</name>
 <text><![CDATA[ 
-BRIEFTONS QuickPull Food Chooper<br />
+BRIEFTONS QuickPull Food Chopper<br />
 In original box. Very handy! <br />
 				 ]]>
 </text>
@@ -170,10 +170,11 @@ Dimensions: Width 80cm, Depth 48cm, Height 70cm. <br />
 <thing key="dryer" type="sell">
 <name>Candy Tumble Dryer</name>
 <text><![CDATA[ 
-Candy Condenser Tuble Dryer (model GCC 580NB-80) <br />
+Candy Condenser Tumble Dryer (model GCC 580NB-80) <br />
 Load capacity: 9kg. <br />
 Dimensions: Height: 84cm, Width 59cm, Length 56cm. <br />
-Bought new two years ago, and was very well cared for. 
+Bought new two years ago, and was very well cared for. <br />
+Comes with original manual and warranty.
 				 ]]>
 </text>
 <picnum>2</picnum>
