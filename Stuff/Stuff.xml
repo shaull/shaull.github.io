@@ -30,7 +30,7 @@ Dimensions (without extension): Width 100cm, Height 74cm, Length 182cm <br />
  - 5th picture: Laundry rack. 
 				 ]]>
 </text>
-<picnum>3</picnum>
+<picnum>5</picnum>
 <price>25</price>
 </thing>
 
@@ -106,6 +106,16 @@ The legs can be taken apart, so it's easy to collect.
 <picnum>1</picnum>
 </thing>
 
+<thing key="bluehighchair" type="free">
+<name>Blue Highchair</name>
+<text><![CDATA[ A white highchair. <br />
+The legs can be taken apart, so it's easy to collect. <br />
+Preferred collection after 16.5.2019.
+				 ]]>
+</text>
+<picnum>1</picnum>
+</thing>
+
 <thing key="Carrier" type="sell">
 <name>RedKite Baby Carrier + Japanese Baby Sling</name>
 <text><![CDATA[ - RedKite baby carrier in original box, with instructions. <br />
@@ -124,6 +134,116 @@ The legs can be taken apart, so it's easy to collect.
 <picnum>3</picnum>
 <price>20</price>
 </thing>
+
+<thing key="blender" type="sell">
+<name>Tower Blender and Grinder</name>
+<text><![CDATA[ 
+A 6-speed blender with a grinder. <br />
+Bought new, used mostly the grinder. 
+				 ]]>
+</text>
+<picnum>1</picnum>
+<price>5</price>
+</thing>
+
+<thing key="chopper" type="sell">
+<name>Manual Food Chopper</name>
+<text><![CDATA[ 
+BRIEFTONS QuickPull Food Chooper<br />
+In original box. Very handy! <br />
+				 ]]>
+</text>
+<picnum>3</picnum>
+<price>5</price>
+</thing>
+
+<thing key="drawers" type="free">
+<name>Chest of Drawers</name>
+<text><![CDATA[ 
+A chest of drawers. <br />
+Dimensions: Width 80cm, Depth 48cm, Height 70cm. <br />
+				 ]]>
+</text>
+<picnum>2</picnum>
+</thing>
+
+<thing key="dryer" type="sell">
+<name>Candy Tumble Dryer</name>
+<text><![CDATA[ 
+Candy Condenser Tuble Dryer (model GCC 580NB-80) <br />
+Load capacity: 9kg. <br />
+Dimensions: Height: 84cm, Width 59cm, Length 56cm. <br />
+Bought new two years ago, and was very well cared for. 
+				 ]]>
+</text>
+<picnum>2</picnum>
+<price>80</price>
+</thing>
+
+<thing key="handblender" type="sell">
+<name>Hand Blender and Chopper</name>
+<text><![CDATA[ 
+Breville hand blender and chopper. In original box. <br />
+				 ]]>
+</text>
+<picnum>2</picnum>
+<price>5</price>
+</thing>
+
+<thing key="kettle" type="free">
+<name>Kettle</name>
+<text><![CDATA[
+Cookworks electric kettle.
+				 ]]>
+</text>
+<picnum>2</picnum>
+</thing>
+
+<thing key="microwave" type="sell">
+<name>DeLonghi 900W Combination Microwave</name>
+<text><![CDATA[ 
+Delonghi 900W Combination Microwave, with Convections Oven and Grill (model D90B).<br />
+Capacity: 25L <br />
+Dimensions: Height 28cm, Width 48cm, Depth 42cm. <br />
+Bought new one year ago. <br />
+<a href="https://www.argos.co.uk/product/4008558">Link to microwave in Argos.</a>
+				 ]]>
+</text>
+<picnum>2</picnum>
+<price>20</price>
+</thing>
+
+<thing key="popcorn" type="free">
+<name>Popcorn Machine</name>
+<text><![CDATA[ 
+GVC popcorn machine.
+				 ]]>
+</text>
+<picnum>2</picnum>
+</thing>
+
+<thing key="screen" type="sell">
+<name>Computer Screen</name>
+<text><![CDATA[ 
+ViewSonic 24" screen.
+				 ]]>
+</text>
+<picnum>1</picnum>
+<price>5</price>
+</thing>
+
+<thing key="wbike" type="sell">
+<name>Women Bicycle</name>
+<text><![CDATA[ 
+GIANT Women bicycle, with mudguards, basket, and a kickstand. <br />
+Comes with an Oxford lock (with all original keys).
+				 ]]>
+</text>
+<picnum>1</picnum>
+<price>40</price>
+</thing>
+
+
 
 </stuff>
 
