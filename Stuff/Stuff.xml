@@ -1,6 +1,13 @@
 <?xml version="1.0"?>
 <stuff>
 
+<thing key="ChangingTable" type="gone">
+<name>Changing Table</name>
+<text><![CDATA[A Changing table with 3 drawers and a laundry basket. <br />      
+                 The bottom panel sometimes comes loose (see picture).]]>
+</text>
+<picnum>3</picnum>
+</thing>
 
 <thing key="table" type="free">
 <name>Table and 4 Chairs</name>
