@@ -274,6 +274,15 @@ A handheld mixer with mixing bowls.
 <picnum>1</picnum>
 </thing>
 
+<thing key="boxes" type="free">
+<name>Food Containers</name>
+<text><![CDATA[ 
+Lots of plastic food containers.
+				 ]]>
+</text>
+<picnum>1</picnum>
+</thing>
+
 <thing key="pram" type="sell">
 <name>Mamas and Papas Armadillo Pram</name>
 <text><![CDATA[ 
