@@ -244,6 +244,48 @@ Comes with an Oxford lock (with all original keys).
 <price>40</price>
 </thing>
 
+<thing key="wbike" type="sell">
+<name>Men Bicycle</name>
+<text><![CDATA[ 
+Marin bicycle, with mudguards and a basket. <br />
+Comes with an Oxford lock (with all original keys). <br />
+Preferred collection after 24.5.2019.
+				 ]]>
+</text>
+<picnum>1</picnum>
+<price>40</price>
+</thing>
+
+<thing key="bowls" type="free">
+<name>Kitchen bundle - Bowls, knife and tray</name>
+<text><![CDATA[ 
+Some bowls, an excellent knife, and a tray.
+				 ]]>
+</text>
+<picnum>3</picnum>
+</thing>
+
+<thing key="mixer" type="free">
+<name>Hand Mixer</name>
+<text><![CDATA[ 
+A handheld mixer with mixing bowls.
+				 ]]>
+</text>
+<picnum>1</picnum>
+</thing>
+
+<thing key="pram" type="sell">
+<name>Mamas and Papas Armadillo Pram</name>
+<text><![CDATA[ 
+An "Armadillo" pushchair by Mamas and Papas.<br />
+Very light, folds easily (single handed), reclines to any angle between sitting and sleeping position (175 degrees).<br />
+Comes with original rain cover, and in original its box. <br />
+<a href ="https://www.mamasandpapas.com/en-gb/armadillo-folding-pushchair-pacific-blue/p/2241y1500">Link to the model in Mamas and Papas</a>
+				 ]]>
+</text>
+<picnum>6</picnum>
+<price>80</price>
+</thing>
 
 
 </stuff>
