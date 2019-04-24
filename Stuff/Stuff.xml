@@ -244,7 +244,8 @@ GVC popcorn machine.
 <thing key="screen" type="sell">
 <name>Computer Screen</name>
 <text><![CDATA[ 
-ViewSonic 22" screen.
+ViewSonic 22" screen. <br />
+Preferred collection after 16.5.2019.
 				 ]]>
 </text>
 <picnum>1</picnum>
