@@ -35,8 +35,9 @@ Dimensions (without extension): Width 100cm, Height 74cm, Length 182cm <br />
 </thing>
 
 <thing key="Cot" type="free">
-<name>Cot Bed with Mothercare Mattress</name>
-<text><![CDATA[ A cot bed with a Mothercare mattress: <br />
+<name>Mothercare Cot Bed with Mothercare Mattress</name>
+<text><![CDATA[ A Mothercare cot bed with a Mothercare mattress. <br />
+Dimensions: 61cm x 162cm, for standard 60x120 mattress. <br />
 We bought the mattress brand new, and used it for 1.5 years. <br />
 The cot bed is used, and the back panel has to be secured with zip ties. Other than that the cot bed is fine. <br />
 Can be dissembled and collected easily <br />
@@ -47,16 +48,30 @@ Preferred collection after 16.5.2019.
 </thing>
 
 <thing key="Bath" type="sell">
-<name>Bath Bundle: Bath + Swivel Bath Seat + 3 Stools</name>
+<name>Bath Bundle: Bath + Swivel Bath Seat + Stool</name>
 <text><![CDATA[ A baby bath with non-slip strips. <br />
 			 A swivelling bath seat, with suction cups for attaching to bath floor. <br />
-			 3 Step stools, one with a stair. <br />
-			 Preferred collection after 16.5.2019.
+			 A Step stool. 
 				 ]]>
 </text>
 <price>5</price>
 <picnum>3</picnum>
 </thing>
+
+<thing key="pram" type="sell">
+<name>Mamas and Papas Armadillo Pram</name>
+<text><![CDATA[ 
+An "Armadillo" pushchair by Mamas and Papas.<br />
+Very light, folds easily (single handed), reclines to any angle between sitting and sleeping position.<br />
+Suitable from birth - 15kg <br />
+Comes with original rain cover, and in original its box. <br />
+<a href ="https://www.mamasandpapas.com/en-gb/armadillo-folding-pushchair-pacific-blue/p/2241y1500">Link to the model in Mamas and Papas</a>
+				 ]]>
+</text>
+<picnum>6</picnum>
+<price>80</price>
+</thing>
+
 
 <thing key="cocoon" type="sell">
 <name>Phil and Ted Cocoon</name>
@@ -143,7 +158,7 @@ Bought new, used mostly the grinder.
 				 ]]>
 </text>
 <picnum>1</picnum>
-<price>5</price>
+<price>10</price>
 </thing>
 
 <thing key="chopper" type="sell">
@@ -162,6 +177,7 @@ In original box. Very handy! <br />
 <text><![CDATA[ 
 A chest of drawers. <br />
 Dimensions: Width 80cm, Depth 48cm, Height 70cm. <br />
+The bottom of the top drawer cannot hold heavy weight, but it's usable for light things.
 				 ]]>
 </text>
 <picnum>2</picnum>
@@ -170,11 +186,12 @@ Dimensions: Width 80cm, Depth 48cm, Height 70cm. <br />
 <thing key="dryer" type="sell">
 <name>Candy Tumble Dryer</name>
 <text><![CDATA[ 
-Candy Condenser Tumble Dryer (model GCC 580NB-80) <br />
+Candy Condenser Tumble Dryer (model GCC 580NB-80) -- needs only electricity, not ventilation. <br />
 Load capacity: 9kg. <br />
 Dimensions: Height: 84cm, Width 59cm, Length 56cm. <br />
 Bought new two years ago, and was very well cared for. <br />
-Comes with original manual and warranty.
+Comes with original manual and warranty. <br />
+We are willing to participate in delivery expenses.
 				 ]]>
 </text>
 <picnum>2</picnum>
@@ -188,13 +205,13 @@ Breville hand blender and chopper. In original box. <br />
 				 ]]>
 </text>
 <picnum>2</picnum>
-<price>5</price>
+<price>10</price>
 </thing>
 
 <thing key="kettle" type="free">
 <name>Kettle</name>
 <text><![CDATA[
-Cookworks electric kettle.
+Cookworks electric kettle. 
 				 ]]>
 </text>
 <picnum>2</picnum>
@@ -203,15 +220,16 @@ Cookworks electric kettle.
 <thing key="microwave" type="sell">
 <name>DeLonghi 900W Combination Microwave</name>
 <text><![CDATA[ 
-Delonghi 900W Combination Microwave, with Convections Oven and Grill (model D90B).<br />
+Delonghi 900W Combination Microwave, with Convection Oven and Grill (model D90B).<br />
 Capacity: 25L <br />
 Dimensions: Height 28cm, Width 48cm, Depth 42cm. <br />
 Bought new one year ago. <br />
+Note that it's big enough to fit a microwave baby bottle sterilizer <br />
 <a href="https://www.argos.co.uk/product/4008558">Link to microwave in Argos.</a>
 				 ]]>
 </text>
 <picnum>2</picnum>
-<price>20</price>
+<price>35</price>
 </thing>
 
 <thing key="popcorn" type="free">
@@ -226,7 +244,7 @@ GVC popcorn machine.
 <thing key="screen" type="sell">
 <name>Computer Screen</name>
 <text><![CDATA[ 
-ViewSonic 24" screen.
+ViewSonic 22" screen.
 				 ]]>
 </text>
 <picnum>1</picnum>
@@ -237,7 +255,8 @@ ViewSonic 24" screen.
 <name>Women Bicycle</name>
 <text><![CDATA[ 
 GIANT Women bicycle, with mudguards, basket, and a kickstand. <br />
-Comes with an Oxford lock (with all original keys).
+21 gear (Shimano) <br />
+Includes an Oxford lock (with all original keys).
 				 ]]>
 </text>
 <picnum>1</picnum>
@@ -248,7 +267,8 @@ Comes with an Oxford lock (with all original keys).
 <name>Men Bicycle</name>
 <text><![CDATA[ 
 Marin bicycle, with mudguards and a basket. <br />
-Comes with an Oxford lock (with all original keys). <br />
+21 gear (Shimano) <br />
+Includes an Oxford lock (with all original keys). <br />
 Preferred collection after 24.5.2019.
 				 ]]>
 </text>
@@ -256,14 +276,6 @@ Preferred collection after 24.5.2019.
 <price>40</price>
 </thing>
 
-<thing key="bowls" type="free">
-<name>Kitchen bundle - Bowls, knife and tray</name>
-<text><![CDATA[ 
-Some bowls, an excellent knife, and a tray.
-				 ]]>
-</text>
-<picnum>3</picnum>
-</thing>
 
 <thing key="mixer" type="free">
 <name>Hand Mixer</name>
@@ -281,19 +293,6 @@ Lots of plastic food containers.
 				 ]]>
 </text>
 <picnum>1</picnum>
-</thing>
-
-<thing key="pram" type="sell">
-<name>Mamas and Papas Armadillo Pram</name>
-<text><![CDATA[ 
-An "Armadillo" pushchair by Mamas and Papas.<br />
-Very light, folds easily (single handed), reclines to any angle between sitting and sleeping position (175 degrees).<br />
-Comes with original rain cover, and in original its box. <br />
-<a href ="https://www.mamasandpapas.com/en-gb/armadillo-folding-pushchair-pacific-blue/p/2241y1500">Link to the model in Mamas and Papas</a>
-				 ]]>
-</text>
-<picnum>6</picnum>
-<price>80</price>
 </thing>
 
 
