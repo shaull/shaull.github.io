@@ -244,7 +244,7 @@ Comes with an Oxford lock (with all original keys).
 <price>40</price>
 </thing>
 
-<thing key="wbike" type="sell">
+<thing key="mbike" type="sell">
 <name>Men Bicycle</name>
 <text><![CDATA[ 
 Marin bicycle, with mudguards and a basket. <br />
