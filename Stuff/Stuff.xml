@@ -161,7 +161,7 @@ Bought new, used mostly the grinder.
 <price>10</price>
 </thing>
 
-<thing key="chopper" type="sell">
+<thing key="chopper" type="gone">
 <name>Manual Food Chopper</name>
 <text><![CDATA[ 
 BRIEFTONS QuickPull Food Chopper<br />
@@ -232,7 +232,7 @@ Note that it's big enough to fit a microwave baby bottle sterilizer <br />
 <price>35</price>
 </thing>
 
-<thing key="popcorn" type="free">
+<thing key="popcorn" type="gone">
 <name>Popcorn Machine</name>
 <text><![CDATA[ 
 GVC popcorn machine.
@@ -278,7 +278,7 @@ Preferred collection after 24.5.2019.
 </thing>
 
 
-<thing key="mixer" type="free">
+<thing key="mixer" type="gone">
 <name>Hand Mixer</name>
 <text><![CDATA[ 
 A handheld mixer with mixing bowls.
