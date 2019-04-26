@@ -103,7 +103,7 @@ Comes with original rain cover, and in original its box. <br />
 <picnum>3</picnum>
 </thing>
 
-<thing key="bike" type="sell">
+<thing key="bike" type="gone">
 <name>Balance Bike</name>
 <text><![CDATA[ Balance Bike, seat height can be adjusted.
 				 ]]>
@@ -241,7 +241,7 @@ GVC popcorn machine.
 <picnum>2</picnum>
 </thing>
 
-<thing key="screen" type="sell">
+<thing key="screen" type="gone">
 <name>Computer Screen</name>
 <text><![CDATA[ 
 ViewSonic 22" screen. <br />
@@ -252,7 +252,7 @@ Preferred collection after 16.5.2019.
 <price>5</price>
 </thing>
 
-<thing key="wbike" type="sell">
+<thing key="wbike" type="gone">
 <name>Women Bicycle</name>
 <text><![CDATA[ 
 GIANT Women bicycle, with mudguards, basket, and a kickstand. <br />
