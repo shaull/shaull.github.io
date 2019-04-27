@@ -121,7 +121,7 @@ The legs can be taken apart, so it's easy to collect.
 <picnum>1</picnum>
 </thing>
 
-<thing key="bluehighchair" type="free">
+<thing key="bluehighchair" type="gone">
 <name>Blue Highchair</name>
 <text><![CDATA[ A blue highchair. <br />
 The legs can be taken apart, so it's easy to collect. <br />
@@ -264,7 +264,7 @@ Includes an Oxford lock (with all original keys).
 <price>40</price>
 </thing>
 
-<thing key="mbike" type="sell">
+<thing key="mbike" type="gone">
 <name>Men Bicycle</name>
 <text><![CDATA[ 
 Marin bicycle, with mudguards and a basket. <br />
@@ -287,7 +287,7 @@ A handheld mixer with mixing bowls.
 <picnum>1</picnum>
 </thing>
 
-<thing key="boxes" type="free">
+<thing key="boxes" type="gone">
 <name>Food Containers</name>
 <text><![CDATA[ 
 Lots of plastic food containers.
