@@ -85,17 +85,6 @@ Comes with original rain cover, and in original its box. <br />
 <price>5</price>
 </thing>
 
-<thing key="blender" type="sell">
-<name>Blender and Grinder</name>
-<text><![CDATA[ 
-Tower 6-speed blender with a grinder. <br />
-Bought new, used mostly the grinder. 
-				 ]]>
-</text>
-<picnum>1</picnum>
-<price>10</price>
-</thing>
-
 <thing key="drawers" type="free">
 <name>Chest of Drawers</name>
 <text><![CDATA[ 
