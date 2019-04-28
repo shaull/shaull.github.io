@@ -100,17 +100,6 @@ Comes with original rain cover, and in original its box. <br />
 <price>5</price>
 </thing>
 
-<thing key="drawers" type="free">
-<name>Chest of Drawers</name>
-<text><![CDATA[ 
-A chest of drawers. <br />
-Dimensions: Width 80cm, Depth 48cm, Height 70cm. <br />
-The bottom of the top drawer cannot hold heavy weight, but it's usable for light things.
-				 ]]>
-</text>
-<picnum>2</picnum>
-</thing>
-
 
 <thing key="handblender" type="sell">
 <name>Hand Blender and Chopper</name>
