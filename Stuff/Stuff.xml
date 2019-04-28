@@ -39,15 +39,30 @@ Preferred collection after 16.5.2019.
 <picnum>1</picnum>
 </thing>
 
-<thing key="Bath" type="sell">
-<name>Bath Bundle: Bath + Swivel Bath Seat + Stool</name>
-<text><![CDATA[ A baby bath with non-slip strips. <br />
-			 A swivelling bath seat, with suction cups for attaching to bath floor. <br />
-			 A Step stool. 
+<thing key="bath" type="free">
+<name>Baby Bath</name>
+<text><![CDATA[ A baby bath with non-slip strips. 			 
+				 ]]>
+</text>
+<picnum>1</picnum>
+</thing>
+
+<thing key="bathseat" type="sell">
+<name>Baby Bath</name>
+<text><![CDATA[  A swivelling bath seat, with suction cups for attaching to bath floor.
+				 ]]>
+</text>
+<price>3</price>
+<picnum>1</picnum>
+</thing>
+
+<thing key="stools" type="sell">
+<name>Baby Bath</name>
+<text><![CDATA[  Three step-stools.
 				 ]]>
 </text>
 <price>5</price>
-<picnum>3</picnum>
+<picnum>1</picnum>
 </thing>
 
 <thing key="pram" type="sell">
