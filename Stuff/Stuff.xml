@@ -48,7 +48,7 @@ Preferred collection after 16.5.2019.
 </thing>
 
 <thing key="bathseat" type="sell">
-<name>Baby Bath</name>
+<name>Baby Swivel Bathseat</name>
 <text><![CDATA[  A swivelling bath seat, with suction cups for attaching to bath floor.
 				 ]]>
 </text>
@@ -57,7 +57,7 @@ Preferred collection after 16.5.2019.
 </thing>
 
 <thing key="stools" type="sell">
-<name>Baby Bath</name>
+<name>Step Stools</name>
 <text><![CDATA[  Three step-stools.
 				 ]]>
 </text>
