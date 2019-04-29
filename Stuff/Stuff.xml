@@ -39,7 +39,7 @@ Preferred collection after 16.5.2019.
 <picnum>1</picnum>
 </thing>
 
-<thing key="bath" type="free">
+<thing key="Bath" type="free">
 <name>Baby Bath</name>
 <text><![CDATA[ A baby bath with non-slip strips. 			 
 				 ]]>
@@ -80,16 +80,6 @@ Comes with original rain cover, and in original its box. <br />
 </thing>
 
 
-<thing key="cocoon" type="sell">
-<name>Phil and Ted Cocoon</name>
-<text><![CDATA[ Black Phil and Ted Cocoon in excellent condition.
-				 ]]>
-</text>
-<picnum>3</picnum>
-<price>10</price>
-</thing>
-
-
 <thing key="Carrier" type="sell">
 <name>RedKite Baby Carrier + Japanese Baby Sling</name>
 <text><![CDATA[ - RedKite baby carrier in original box, with instructions. <br />
@@ -111,21 +101,6 @@ Breville hand blender and chopper. In original box. <br />
 <price>10</price>
 </thing>
 
-
-<thing key="microwave" type="sell">
-<name>DeLonghi 900W Combination Microwave</name>
-<text><![CDATA[ 
-Delonghi 900W Combination Microwave, with Convection Oven and Grill (model D90B).<br />
-Capacity: 25L <br />
-Dimensions: Height 28cm, Width 48cm, Depth 42cm. <br />
-Bought new one year ago. <br />
-Note that it's big enough to fit a microwave baby bottle sterilizer <br />
-<a href="https://www.argos.co.uk/product/4008558">Link to microwave in Argos.</a>
-				 ]]>
-</text>
-<picnum>2</picnum>
-<price>35</price>
-</thing>
 
 
 
