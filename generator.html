@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Shaull Almagor's GENERATOR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="description" content="Shaull Almagor's Homepage">
+<meta name="keywords" content="Shaull, Shaull Almagor, Automata, LTL, Verification, Publications, Dynamical Systems, Weighted Automata">
+<meta name="author" content="Shaull Almagor">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+    background-color: #739273;
+}
+
+div#main {
+    position: relative;
+    width: 60%;
+    margin: 0px auto;
+    text-align: left;
+	background-color: #a3a3c2;
+	border-style: solid;
+    border-width: 2px;
+    border-color: black;
+	padding: 10px;
+}
+@media screen and (max-width: 1200px) {
+  div#main {
+    width: 90%; /* The width is 90%, when the viewport is 1000px or smaller */
+  }
+
+</style>
+<link rel="shortcut icon" href="favicon.ico"/>
+</head>
+<body>
+<div id="main">
+<h1>What are you doing here? Get out.</h1>
+<hr>
+
+
+<h2>Publications:</h2>
+<p id="numPubs"></p>
+<p id="pubs"></p>
+
+<script>
+
+var xmltext, parser, xmlDoc, allPapers, allPeople;
+
+function getPersonString(personNode){
+	fname=personNode.getElementsByTagName("fname")[0].childNodes[0].nodeValue;
+	lname=personNode.getElementsByTagName("lname")[0].childNodes[0].nodeValue;
+	link=personNode.getElementsByTagName("link");
+	if(link.length==0)
+		return fname+" "+lname;
+	if(link.length==1){
+			linktxt=link[0].childNodes[0].nodeValue;
+			return "<a href=\""+linktxt+"\">"+fname+" "+lname+"</a>";
+		}
+	return null;
+};
+
+function getPersonStringByID(id){
+	for(i=0;i<allPeople.length;i++){
+		if(allPeople[i].getAttribute("id")==id){
+			return getPersonString(allPeople[i]);
+		}
+	}
+	return "AuthorError";
+};
+
+function getPaperString(paper){
+	pTitle=paper.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+	authorList=paper.getElementsByTagName("author");
+	pLink=paper.getElementsByTagName("url");
+	typePub=paper.getAttribute("type");
+	pub=paper.getElementsByTagName(typePub);
+	pAuthors="";
+	if(authorList.length==1){
+		pAuthors=getPersonStringByID(authorList[0].childNodes[0].nodeValue);
+	}
+	if(authorList.length==2){
+		pAuthors=getPersonStringByID(authorList[0].childNodes[0].nodeValue)+ " and "+getPersonStringByID(authorList[1].childNodes[0].nodeValue);
+	}
+	if(authorList.length>2){
+		for(a=0;a<authorList.length-1;a++){
+			pAuthors+=getPersonStringByID(authorList[a].childNodes[0].nodeValue)+", ";
+		}
+		pAuthors+= "and "+getPersonStringByID(authorList[authorList.length-1].childNodes[0].nodeValue);
+	}
+	titleTxt="";
+	if(pLink.length>0)	{
+		linkTxt=pLink[0].childNodes[0].nodeValue;
+		titleTxt="<a href=\""+linkTxt+"\">"+ pTitle +"</a>";
+	}
+	else{
+		linkTxt="https:\/\/shaull.github.io\/pub\/"+paper.getAttribute("key")+".pdf";
+		titleTxt="<a href=\""+linkTxt+"\" target=\"_blank\">"+ pTitle +"</a>";
+	}
+	pubTxt="";
+	if(pub==null){
+		pubTxt="Publication Error";
+	}
+	else{
+		pubTxt=pub[0].childNodes[0].nodeValue+" "+paper.getElementsByTagName("year")[0].childNodes[0].nodeValue;
+	}
+	
+	return titleTxt+"<BR\/>"+pAuthors+", "+ "<I>"+pubTxt+"</I>" +"<BR\/>";
+};
+
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+    setPublications(this);
+    }
+};
+xhttp.open("GET", "Publications.xml", true);
+xhttp.send();
+
+function setPublications(xml) {
+    var xmlDoc = xml.responseXML;
+  
+	//xmltext=
+
+	//parser = new DOMParser();
+	//xmlDoc = parser.parseFromString(xmltext,"text/xml");
+
+	allPapers=xmlDoc.getElementsByTagName("paper");
+	allPeople=xmlDoc.getElementsByTagName("person");
+
+	//document.getElementById("p1").innerHTML =	xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+
+	/*document.getElementById("p2").innerHTML =
+	allPapers.length;
+
+	peopleText="";
+	for(i=0;i<allPeople.length;i++){
+		peopleText+=getPersonString(allPeople[i])+"<BR\/>";
+	}
+	document.getElementById("p3").innerHTML = peopleText;*/
+	
+	//document.getElementById("numPubs").innerHTML ="Numpubs="+allPapers.length;
+
+	papersString="<ul style=\"list-style-type:disc\">\r\n";
+	for(iPaper=0;iPaper<allPapers.length;iPaper++){
+		 papersString+="<li>"+getPaperString(allPapers[iPaper])+"<BR\/><\/li>\r\n";
+	}
+	papersString+="</ul>\r\n";
+	document.getElementById("pubs").innerHTML =papersString;
+};
+</script>
+<hr>
+
+</div>
+</body>
+</html>
