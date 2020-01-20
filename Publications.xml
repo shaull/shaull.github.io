@@ -2,6 +2,14 @@
 <researcher name="Shaull Almagor">
 <papers>
 
+<paper key="AL20" type="conf">
+<author>ShaullAlmagor</author>
+<author>MortezaLahijanian</author>
+<title>Explainable Multi Agent Path Finding.</title>
+<year>2020</year>
+<conf>AAMAS (to appear)</conf>
+</paper>
+
 <paper key="AOW19" type="conf">
 <author>ShaullAlmagor</author>
 <author>JoelOuaknine</author>
@@ -17,7 +25,7 @@
 <author>OrnaKupferman</author>
 <title>Sensing as a Complexity Measure.</title>
 <year>2019</year>
-<journal>DCFS Special Issue (to appear)</journal>
+<journal>DCFS Special Issue</journal>
 </paper>
 
 <paper key="ACHOW18" type="conf">
