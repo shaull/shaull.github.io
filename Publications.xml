@@ -2,6 +2,16 @@
 <researcher name="Shaull Almagor">
 <papers>
 
+<paper key="AOW20" type="journal">
+<author>ShaullAlmagor</author>
+<author>JoelOuaknine</author>
+<author>JamesWorrell</author>
+<title>First-Order Orbit Queries.</title>
+<year>2020</year>
+<conf>Theory of Computing Systems (TOCS) (to appear)</conf>
+</paper>
+
+
 <paper key="AL20" type="conf">
 <author>ShaullAlmagor</author>
 <author>MortezaLahijanian</author>
