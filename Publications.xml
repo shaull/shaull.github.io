@@ -2,13 +2,40 @@
 <researcher name="Shaull Almagor">
 <papers>
 
+<paper key="ABK20" type="journal">
+<author>ShaullAlmagor</author>
+<author>UdiBoker</author>
+<author>OrnaKupferman</author>
+<title>What's Decidable about Weighted Automata?</title>
+<year>2020</year>
+<journal>Inf &amp; Comp Special Issue WATA (to appear)</journal>
+</paper>
+
+<paper key="AKOW20" type="conf">
+<author>ShaullAlmagor</author>
+<author>EdonKelmendi</author>
+<author>JoelOuaknine</author>
+<author>JamesWorrell</author>
+<title>O-Minimal Invariants for Continuous Linear Dynamical Systems.</title>
+<year>2020</year>
+<conf>ICALP</conf>
+</paper>
+
+<paper key="AK20" type="conf">
+<author>ShaullAlmagor</author>
+<author>OrnaKupferman</author>
+<title>Good-Enough Synthesis.</title>
+<year>2020</year>
+<conf>CAV</conf>
+</paper>
+
 <paper key="AOW20" type="journal">
 <author>ShaullAlmagor</author>
 <author>JoelOuaknine</author>
 <author>JamesWorrell</author>
 <title>First-Order Orbit Queries.</title>
 <year>2020</year>
-<journal>Theory of Computing Systems (TOCS) (to appear)</journal>
+<journal>Theory of Computing Systems (TOCS)</journal>
 </paper>
 
 
@@ -17,7 +44,17 @@
 <author>MortezaLahijanian</author>
 <title>Explainable Multi Agent Path Finding.</title>
 <year>2020</year>
-<conf>AAMAS (to appear)</conf>
+<conf>AAMAS</conf>
+</paper>
+
+<paper key="ACMP20" type="journal">
+<author>ShaullAlmagor</author>
+<author>MichaelCadilhac</author>
+<author>FilipMazowiecki</author>
+<author>GuillermoPerez</author>
+<title>Weak Cost Register Automata Are Still Powerful.</title>
+<year>2020</year>
+<journal>IJFCS Special Issue DLT (to appear)</journal>
 </paper>
 
 <paper key="AOW19" type="conf">
@@ -400,6 +437,10 @@
 <lname>Worrell</lname>
 <link>http://www.cs.ox.ac.uk/people/james.worrell/home.html</link>
 </person>
-
+<person id="EdonKelmendi">
+<fname>Edon</fname>
+<lname>Kelmendi</lname>
+<link>https://edon.github.io/</link>
+</person>
 </researcher>
 
