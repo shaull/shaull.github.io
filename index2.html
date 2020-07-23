@@ -129,14 +129,13 @@ function getPaperString(paper){
 		linkTxt="pub\/"+paper.getAttribute("key")+".pdf";
 		titleTxt="<a href=\""+linkTxt+"\">"+ pTitle +"</a>";
 	}
-	pubTxt="";
+	pubTxt="";	
 	if(pub==null){
 		pubTxt="Publication Error";
 	}
 	else{
 		pubTxt=pub[0].childNodes[0].nodeValue+" "+paper.getElementsByTagName("year")[0].childNodes[0].nodeValue;
 	}
-	
 	return titleTxt+"<BR\/>"+pAuthors+", "+ "<I>"+pubTxt+"</I>" +"<BR\/>";
 };
 

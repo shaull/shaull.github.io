@@ -1,6 +1,38 @@
 <?xml version="1.0"?>
 <researcher name="Shaull Almagor">
 <papers>
+<paper key="ABHT20" type="conf">
+<author>ShaullAlmagor</author>
+<author>UdiBoker</author>
+<author>PiotrHofman</author>
+<author>PatrickTotzke</author>
+<title>Parametrized Universality Problems for One-Counter Nets.</title>
+<year>2020</year>
+<conf>CONCUR</conf>
+</paper>
+
+<paper key="ACPSW20" type="conf">
+<author>ShaullAlmagor</author>
+<author>NathannCohen</author>
+<author>MahsaShirm</author>
+<author>GuillermoPerez</author>
+<author>JamesWorrell</author>
+<title>Coverability in 1-VASS with Disequality Tests</title>
+<year>2020</year>
+<conf>CONCUR</conf>
+</paper>
+
+<paper key="AKOW20" type="conf">
+<author>ShaullAlmagor</author>
+<author>EdonKelmendi</author>
+<author>JoelOuaknine</author>
+<author>JamesWorrell</author>
+<title>O-Minimal Invariants for Continuous Linear Dynamical Systems.</title>
+<year>2020</year>
+<conf>ICALP</conf>
+<pages>107:1-107:15</pages>
+</paper>
+
 
 <paper key="ABK20" type="journal">
 <author>ShaullAlmagor</author>
@@ -19,6 +51,7 @@
 <title>O-Minimal Invariants for Continuous Linear Dynamical Systems.</title>
 <year>2020</year>
 <conf>ICALP</conf>
+<pages>107:1-107:15</pages>
 </paper>
 
 <paper key="AK20" type="conf">
@@ -27,6 +60,7 @@
 <title>Good-Enough Synthesis.</title>
 <year>2020</year>
 <conf>CAV</conf>
+<pages>541-563</pages>
 </paper>
 
 <paper key="AOW20" type="journal">
@@ -45,6 +79,7 @@
 <title>Explainable Multi Agent Path Finding.</title>
 <year>2020</year>
 <conf>AAMAS</conf>
+<pages>34-42</pages>
 </paper>
 
 <paper key="ACMP20" type="journal">
@@ -442,5 +477,21 @@
 <lname>Kelmendi</lname>
 <link>https://edon.github.io/</link>
 </person>
+<person id="PiotrHofman">
+<fname>Piotr</fname>
+<lname>Hofman</lname>
+<link>https://www.mimuw.edu.pl/~ph209519/</link>
+</person>
+<person id="PatrickTotzke">
+<fname>Patrick</fname>
+<lname>Totzke</lname>
+<link>https://cgi.csc.liv.ac.uk/~patrick/</link>
+</person>
+<person id="MahsaShirm">
+<fname>Mahsa</fname>
+<lname>Shirmohammadi</lname>
+<link>https://www.irif.fr/users/mahsa/index</link>
+</person>
+
 </researcher>
 
