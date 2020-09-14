@@ -1,5 +1,13 @@
 <?xml version="1.0"?>
 <researcher name="Shaull Almagor">
+
+<paper key="Alm20" type="conf">
+<author>ShaullAlmagor</author>
+<title>Process Symmetry in Probabilistic Transducers.</title>
+<year>2020</year>
+<conf>FSTTCS</conf>
+</paper>
+
 <papers>
 <paper key="ABHT20" type="conf">
 <author>ShaullAlmagor</author>
