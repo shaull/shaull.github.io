@@ -1,6 +1,19 @@
 <?xml version="1.0"?>
 <researcher name="Shaull Almagor">
 
+<papers>
+
+<paper key="AKKOW21" type="conf">
+<author>ShaullAlmagor</author>
+<author>ToghrulKarimov</author>
+<author>EdonKelmendi</author>
+<author>JoelOuaknine</author>
+<author>JamesWorrell</author>
+<title>Deciding &#969;-Regular Properties on Linear Recurrence Sequences</title>
+<year>2021</year>
+<conf>POPL (To Appear)</conf>
+</paper>
+
 <paper key="Alm20" type="conf">
 <author>ShaullAlmagor</author>
 <title>Process Symmetry in Probabilistic Transducers.</title>
@@ -8,7 +21,6 @@
 <conf>FSTTCS</conf>
 </paper>
 
-<papers>
 <paper key="ABHT20" type="conf">
 <author>ShaullAlmagor</author>
 <author>UdiBoker</author>
@@ -504,7 +516,11 @@
 <fname>Nathann</fname>
 <lname>Cohen</lname>
 </person>
-
+<person id="ToghrulKarimov">
+<fname>Toghrul</fname>
+<lname>Karimov</lname>
+<link>https://www.mpi-sws.org/people/toghs/</link>
+</person>
 
 </researcher>
 
