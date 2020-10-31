@@ -3,6 +3,16 @@
 
 <papers>
 
+<paper key="KAL21" type="conf">
+<author>JustinKottinger</author>
+<author>ShaullAlmagor</author>
+<author>MortezaLahijanian</author>
+<title>MAPS-X: Explainable Multi-Robot Motion Planning via Segmentation</title>
+<year>2021</year>
+<conf>(Submitted)</conf>
+</paper>
+
+
 <paper key="AKKOW21" type="conf">
 <author>ShaullAlmagor</author>
 <author>ToghrulKarimov</author>
@@ -520,6 +530,10 @@
 <fname>Toghrul</fname>
 <lname>Karimov</lname>
 <link>https://www.mpi-sws.org/people/toghs/</link>
+</person>
+<person id="JustinKottinger">
+<fname>Justin</fname>
+<lname>Kottinger</lname>
 </person>
 
 </researcher>
